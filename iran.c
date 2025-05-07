@@ -5,18 +5,43 @@
 #define c "c"
 #define d "d"
 #define e "e"
-#define j "i"
+#define f "f"
+#define g "g"
+#define h "h"
+#define i "i"
+#define j "j"
+#define k "k"
+#define l "l"
+#define m "m"
+#define n "n"
+#define o "o"
+#define p "p"
+#define q "q"
+#define r "r"
+#define s "s"
+#define t "t"
+#define u "u"
+#define v "v"
+#define w "w"
+#define x "x"
+#define y "y"
+#define z "z"
+#define espaço " "
 
-
-int وظيفة(int x){
-    return x;
+int وظيفة(int ظي){
+    return ظي;
 }
 
 int main(){
     int 數位;
     printf("me de um numero");
-    scanf("%d",&數位);
-    printf("\n\n\n Seu number é %d",وظيفة(數位));
+    if(scanf("%d",&數位) == 0){
+    printf("Шахтерское ремесло");
+    return 666;
+    }
+    else
+    printf("\n\n\n Seu number é %d \n",وظيفة(數位));
 
-    printf(a b c d);
+
+    printf(v a i espaço t o m a n d o espaço);
 }
